@@ -1,0 +1,35 @@
+<div class="header-full-width bg-info text-black">
+  <h5 class="mb-0 text-left">TV Series</h5>
+</div>
+<div class="container mt-4">
+  <div class="card">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="table-responsive">
+          <table class="table table-striped table-bordered">
+            <thead class="thead-light">
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Channel</th>
+                <th>Seasons</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let serie of series">
+                <td>{{ serie.id }}</td>
+                <td><a href="#">{{ serie.name }}</a></td>
+                <td>{{ serie.channel }}</td>
+                <td>{{ serie.seasons }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="average-seasons mt-3">
+          <strong>Seasons average: {{ seasonsAverage}}</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

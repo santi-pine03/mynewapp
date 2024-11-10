@@ -1,0 +1,13 @@
+.header-full-width {
+    width: 100%;          /* Hace que el encabezado ocupe todo el ancho de la pantalla */
+    padding: 10px 20px;   /* Espaciado alrededor del encabezado */
+    margin-bottom: 20px;  /* Espacio debajo del encabezado */
+  }
+
+  .average-seasons {
+    text-align: left;
+    font-size: 1.1em;
+    color: #333;
+    padding: 10px;
+    margin-top: 10px; 
+  }
